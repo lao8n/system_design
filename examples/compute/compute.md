@@ -8,6 +8,6 @@ Horizontal scaling: +Availability +Scalability
     * Stateless architecture enables autoscaling (if stateful would need sticky sessions) +Scalability
     * Failure detection by gossip protocol +Reliability
 
-Interactions between systems: + Availability
+Interactions between systems: +Availability
 * Queue
     * Decouples compute from data: +Availability

@@ -11,6 +11,8 @@
 * Web Server
 * Database
 
+![image info](./../images/generic_design.png)
+
 **Basic answer**
 
 4 parts

@@ -16,6 +16,8 @@ Questions
 
 **Step 2: Propose high-level design and get buy-in**
 
+Summary: add the rate limiter as middleware with cache for counter
+
 Options
 * Where should rate limiter be located? Servers or middleware (API gateway)?
     * Middleware is good as can prevent servers from being notified unless valid request.
@@ -45,3 +47,6 @@ Architecture
 Problems
 * Race conditions = problem is time between reading counter and incrementing counter. Locks are an obvious solution but slow system significantly. Alternative solutions include sorted sets data structure in Redis
 * Synchronization = need multiple rate limit servers, but single Redis i.e. being to avoid sticky sessions and sending to same rate limiter with its own cache
+
+Extensions
+* Rate limiting by IP address using Iptables. I.e. can go down the OSI model

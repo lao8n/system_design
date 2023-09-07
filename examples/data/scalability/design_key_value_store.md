@@ -6,4 +6,4 @@
 
 **Step 3: Design Deep Dive**
 
-![image info](./../../../images/rate_limiter.png)
+![image info](./../../../images/key_value_store.png)

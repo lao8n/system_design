@@ -1,4 +1,4 @@
-**Design a**:
+**Design a key-value store**:
 
 **Step 1: Understand the problem and establish design scope**
 

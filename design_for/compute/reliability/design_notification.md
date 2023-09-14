@@ -10,6 +10,8 @@ Questions
 
 **Step 2: Propose high-level design and get buy-in**
 
+Summary: Use queues to add reliability and politeness
+
 Push providers
 * IOS: Apple Push Notification Service (APNS)
 * Android: Firebase Cloud Messaging (FCM)

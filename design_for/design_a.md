@@ -20,3 +20,11 @@
 2. Propose high-level design and get buy-in
 3. Design deep dive 
 4. Wrap
+
+Clarifying questions
+* Features? What it should be able to do
+* Flows? Upload/download, read/write
+* Per unit? File sizes, latency
+* Aggregate? Daily active users etc, number of requests per user
+* Distributed systems? Consistency vs availabilty/reliability?
+* Monitoring?

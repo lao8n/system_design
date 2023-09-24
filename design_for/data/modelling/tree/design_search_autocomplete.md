@@ -24,7 +24,7 @@ Main flows
 
 **Step 3: Design Deep Dive**
 
-![image info](./../../../images/search_autocomplete.png)
+![image info](./../../../../images/search_autocomplete.png)
 
 Compute low-latency
 * AJAX requests avoid reloading the entire webpage

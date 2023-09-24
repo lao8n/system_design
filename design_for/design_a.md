@@ -22,9 +22,20 @@
 4. Wrap
 
 Clarifying questions
-* Features? What it should be able to do
-* Flows? Upload/download, read/write
-* Per unit? File sizes, latency
-* Aggregate? Daily active users etc, number of requests per user
-* Distributed systems? Consistency vs availabilty/reliability?
-* Monitoring?
+* Product
+    * Features? What it should be able to do
+    * Flows? Upload/download, read/write
+    * Per unit? File sizes, latency
+    * Aggregate? Daily active users etc, number of requests per user
+* Distributed systems
+    * Compute
+        * Reliability?
+        * Scalability?
+        * Low-latency?
+        * Throughput?
+    * Data
+        * Availability?
+        * Consistency
+        * Scalability?
+        * Low-latency?
+    * Monitoring?

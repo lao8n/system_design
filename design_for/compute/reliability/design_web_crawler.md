@@ -27,7 +27,7 @@ Back-of-envelope
 Approach
 * BFS with a queue and visited field
 * Visited check for 1. content 2. URL
-* Web specifics include HTML downloader, DNS resolver, likn extractor etc. 
+* Web specifics include HTML downloader, DNS resolver, link extractor etc. 
 
 **Step 3: Design Deep Dive**
 

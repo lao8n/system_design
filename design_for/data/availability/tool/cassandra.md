@@ -1,11 +1,14 @@
 **Cassandra**
 
-**Definition**
+**Definition**: Open-source database, which is self-hosted, and manual management. 
 
 
 **Key properties**
-* Columnar store
-* CA (availability-partition tolerance) system.
+* Columnar store (2-d key-value store)
+* AP (availability-partition tolerance) system 
+* Eventually consistent although can be configured for strong consistency
+* Support CQL (like SQL)
+* Write throughput is high
 
 **How it works**
 * Write path: 1. write update to commit log on disk 2. push to memory cache 3. when memory cache is full flush to SSTable on disk

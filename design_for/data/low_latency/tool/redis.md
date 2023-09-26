@@ -9,5 +9,6 @@
 * It uses LRU to evict old data.
 * Redis cluster can be used to partition data across multiple nodes
 * CP (CAP) if network partition. Replication is in memory, have tunable consistency.
+* Redis sorted sets are atomic and have unique values in order
 
 **Architecture**

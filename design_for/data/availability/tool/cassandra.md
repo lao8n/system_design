@@ -6,7 +6,7 @@
 **Key properties**
 * Columnar store (2-d key-value store)
 * AP (availability-partition tolerance) system 
-* Eventually consistent although can be configured for strong consistency
+* Eventually consistent although can be configured for strong consistency (can support quorum read to mimic own write but adds latency)
 * Support CQL (like SQL)
 * Write throughput is high
 

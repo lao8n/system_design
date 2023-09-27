@@ -2,6 +2,8 @@
 
 **Definition** key-value store where most of the data is cached useful for high throughput and low-latency applications. 
 
+**Key properties**
+
 **How it works**
 * Snap shotting and append-only files can be used to persist data.
 * Single-threaded event loop using non-blocking IO operations and avoiding concurrency problems.
@@ -10,5 +12,6 @@
 * Redis cluster can be used to partition data across multiple nodes
 * CP (CAP) if network partition. Replication is in memory, have tunable consistency.
 * Redis sorted sets are atomic and have unique values in order
+* Sorted sets are implemented with skip lists which are layered linked lists that allow for fast search and quick removal and deletion. Hash table mapping each element to it score.
 
 **Architecture**

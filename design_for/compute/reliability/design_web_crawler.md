@@ -6,7 +6,7 @@ Definition = Recursively extract URLs from web pages, go to those sites and down
 
 Questions?
 * What is the purpose?
-    * Search engine indexing <-
+    * Search engine indexing
     * Web archiving
     * Web mining
     * Web monitoring

@@ -39,7 +39,7 @@ Choices
 
 **Step 3: Design Deep Dive**
 
-![image info](./../../../images/rate_limiter.png)
+![image info](./../../../../images/metrics.png)
 
 Compute
 * Computation: where should aggregation happen in collection agent, ingestion pipeline or query side

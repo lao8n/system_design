@@ -25,8 +25,7 @@ Clarifying questions
 * Product
     * Features? What it should be able to do
     * Flows? Upload/download, read/write
-    * Per unit? File sizes, latency
-    * Aggregate? Daily active users etc, number of requests per user
+    * Calculations? File sizes, latency, Daily active users etc, number of requests per user. ~100k seconds/day
 * Distributed systems
     * Compute
         * Reliability?

@@ -1,4 +1,4 @@
-**Load Balancer**: Enables horizontal scaling of compute +Scalability +Availability
+**Load Balancer**: Enables horizontal scaling of compute
 
 **How it works**: public IP of load balancer exposed and it routes to private IPs of web servers
 

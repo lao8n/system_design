@@ -25,7 +25,7 @@ Clarifying questions
 * Product
     * Features? What it should be able to do
     * Flows? Upload/download, read/write
-    * Estimates? File sizes, latency, Daily active users etc, number of requests per user. ~100k seconds/day
+    * Estimates? File sizes, latency, Daily active users etc, number of requests per user. ~100k seconds/day, 1bn bytes is GB
 * Distributed systems
     * Compute
         * Reliability?

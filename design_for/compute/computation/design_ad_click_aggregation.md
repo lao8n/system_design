@@ -33,7 +33,7 @@ Store both raw data and aggregated data
 
 **Step 3: Design Deep Dive**
 
-![image info](./../../../images/rate_limiter.png)
+![image info](./../../../images/ads_aggregation.png)
 
 Compute
 * Computation = trade-off between using event time (handling delayed events) and processing time (large lags). Typical solution is to add a watermark i.e. a rolling window and wait an extra 15s for events to be processed adding latency but improving accuracy. 2 types of windows 1. tumbling (fixed) window 2. sliding window (last 1 minute)

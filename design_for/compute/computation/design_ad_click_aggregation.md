@@ -7,7 +7,6 @@ Features
 * Edge cases? Events arrive later than expected, duplicated events or system recovery.
 
 Flows
-* Queries? 
 1. Ad clicks in last M minutes. 
 2. Top 100 most clicked ads in the past minute with configurable parameters. 
 3. Data filter by `ip`, `user_id` or `country` for the above two queries

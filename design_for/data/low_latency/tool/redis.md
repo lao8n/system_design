@@ -13,5 +13,5 @@
 * CP (CAP) if network partition. Replication is in memory, have tunable consistency.
 * Redis sorted sets are atomic and have unique values in order
 * Sorted sets are implemented with skip lists which are layered linked lists that allow for fast search and quick removal and deletion. Hash table mapping each element to it score.
-
+* Redis transactions - using `MULTI`, `EXEC`, `DISCARD` and `WATCH` commands but they only guarantee atomicity but not isolation.
 **Architecture**

@@ -41,6 +41,7 @@ Email sending key thing is SMTP workers pull from a queue decoupling them to wor
 **Step 3: Design Deep Dive**
 Email specific
 * To avoid being classified as spam need 1. dedicated IPs 2. separate marketing emails from normal emails 3. warm up email server over time (takes 6 weeks)
+
 Data
 * Availability: Probably more important than consistency
 * Modelling: We cannot perform SQL operation and it is not efficent to pull all messages into application and then filter there. Instead denormalize the data into read and unread emails.

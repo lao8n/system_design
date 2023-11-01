@@ -1,4 +1,4 @@
-**CDN**
+**Content delivery network (CDN)**
 
 **Definition**: Network of geographically dispersed servers used to deliver static content from its cache like images, videos, CSS and Javascript
 

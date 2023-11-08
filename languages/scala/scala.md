@@ -15,7 +15,7 @@ Functional concepts
 * Higher-order functions = functions that take other functions as an argument
 * Call-by-value = evaluate arguments first so only evaluate arguments once - scala does this
 * Call-by-name = reduce functions first and arguments second - as with `def`, should equivalent if pure functions and both evaluations termiante
-* Currying = convert a function that takes multiple arguments into a pipeline of functions that takes one argument
+* Currying = convert a function that takes multiple arguments into a pipeline of functions that takes one argument allowing composability and specialization for more modular code
 * Implicits = involve compiler resolving type errors by using additional information in scope 1. implicit parameters = if method call does not supply all parameters 2. implicit converstions = supplied type does not match expected type 3. implicit classes = have type specific behaviour preserving abstract interface
 * Covariance = about producers - producing something specific can satisfy a general requirement
 * Contravariance = about consumer - consuming something general can satisfy specific requirement.

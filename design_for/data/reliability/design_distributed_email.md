@@ -11,7 +11,7 @@ Features
 * Email attachments? Yes
 
 Flows
-* How connect? HTTP not SMTP (sending emails - to be precise sotring emails both in the sender and receivers database), POP (receiving emails - to be precise retrieving from storage both for sender and receiver -  but download entire email from server) or IMAP (only download when requested and stays on server for multiple devices)
+* How connect? HTTP not SMTP (sending emails - to be precise writing emails both in the sender and receivers database), POP (receiving emails - to be precise retrieving from storage both for sender and receiver -  but download entire email from server) or IMAP (only download when requested and stays on server for multiple devices)
 * Send emails
 * Receive emails
 

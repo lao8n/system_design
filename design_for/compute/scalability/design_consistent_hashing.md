@@ -20,5 +20,7 @@ Steps
 Problems
 * Number of keys mapped to each server won't be uniform. Solution are virtual nodes where the more nodes the more even it becomes
 
-Extensions
+Use-cases
 * Amazon's Dynamo database partitioning
+* Akamai CDN
+* Apache Cassandra data partitioning across the cluster

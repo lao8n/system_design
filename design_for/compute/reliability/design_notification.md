@@ -6,6 +6,7 @@ Questions
 * What types of notifications? Push, SMS & email
 * Real-time? Soft real-time - i.e. asap
 * Can users opt-out? Yes
+* Trigger? Client-side can be scheduled on server side
 * Numbers? 10m mobile push, 1m SMS, 5m emails
 
 **Step 2: Propose high-level design and get buy-in**
@@ -22,10 +23,14 @@ Push providers
 
 ![image info](./../../../images/notification_system.png)
 
+Compute computation
+* Allow users to opt out, and add rate limiting with user info
+
 Compute Reliability
 * multiple notification servers to avoid SPOF
 * add queues with retry to each service - even with deduplication we cannot have exactly once delivery however as might have a network error either choose at least once or at most once.
 * add notification append only log
+* add data analytics service to track stats
 
 Compute Scalability
 * multiple servers to computer and push to service providers

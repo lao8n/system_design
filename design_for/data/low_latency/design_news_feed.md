@@ -26,7 +26,7 @@ Compute reliability
 
 Compute scalability
 * Load balancer and multiple web servers
-* Fanout workers
+* Fanout workers - push on write or pull on read
 
 Data availability
 * Replication of databases

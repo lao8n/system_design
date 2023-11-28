@@ -23,6 +23,7 @@ High-level design
 Options
 * Client initiated vs server initiated: HTTP works fine for sending messages and keep-alive header can be used to allow a client to maintain a persistent connection with the chat service reducing the number of TCP handshakes. Server initiated can be simulated over HTTP with polling, long-polling and WebSocket. Regular polling can be inefficient when most of the time there are no messages. Long-polling involves keeping the connection open until messages are found, but have problems that might long-poll different server from the one the client is connected to. WebSocket is initiated by the client with HTTP but through a handshake upgraded to a persistent connection. Because it is bidirectional typically use it for both sending and receiving although there is a small cost to keeping open the connection.
 * Stateless vs stateful = everything is stateless except the chat service itself which has a persistent network connection to a chat server.
+* Servers: Real-time chat and presence servers and http API and notification servers
 
 **Step 3: Design Deep Dive**
 

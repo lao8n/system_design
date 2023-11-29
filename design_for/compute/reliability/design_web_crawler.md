@@ -33,6 +33,9 @@ Approach
 
 ![image info](./../../../images/web_crawler_queues.png)
 
+Compute
+* `robots.txt` says which urls are allowed and which are not
+
 BFS with queue
 * Multiple queues with different priorities -> randomly pick from a queue but with higher probability for more important queues
 
@@ -46,4 +49,4 @@ Low-latency
 
 Scalability
 * Check for duplicates in data using hashsums
-* Check for infinite loops with some rule if too deep recursion etc.
+* Check for infinite loops with some rule if too deep recursion etc. spider traps

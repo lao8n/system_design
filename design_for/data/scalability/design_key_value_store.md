@@ -32,6 +32,6 @@ Availability
 * Temporary failures: Sloppy quorum and hinted handoff
 
 Consistency
-* Quorum consensus: read-write quorums where W and R are the number of acks needed for coordinator to consider operation successful. Can tune from strong consistency with `W + R > N` to fast read and fast write
+* Quorum consensus: read-write quorums where `W` and `R` are the number of acks needed for coordinator to consider operation successful and `N` is the number of replicas. Can tune from strong consistency with `W + R > N` to fast read and fast write where there is a latency vs consistency trade-off
 * Write conflicts: pick the latest version according to server clock (typically increment)
 * Permanent failures: Merkle tree for detection and synchronization

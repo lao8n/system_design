@@ -9,10 +9,20 @@ Advantages
 * Reduce costs
 * Prevent server overloading
 
-Questions
+Features
 * Server side or client side? Typically server as don't have control on client
 * Inform throttled users? Yes
-* Separate service or as part of app code? Either
+
+Flows
+* Separate service or as part of app code? Either -> separate
+
+Estimates
+* NA
+
+System Design
+* Compute scalability = serverless
+* Compute low latency = shouldn't slow down requests
+* Data reliability = if one server goes down it shouldn't affect the entire system
 
 **Step 2: Propose high-level design and get buy-in**
 

@@ -45,5 +45,8 @@ Data low-latency
 
 Data scalability
 * Sharding by `user_id`
-* Break file into blocks and upload them independently
+* Break file into blocks and upload them independently. Use delta-sync and compression. 
 * Cold storage is a cheap way to store infrequently accessed data
+
+Data security 
+* Encrypt before sending to cloud storage

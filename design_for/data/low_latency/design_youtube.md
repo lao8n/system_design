@@ -50,6 +50,7 @@ Data low latency
 
 Data scalability
 * Parallelize uploading in chunks
+* Separate metadata, video and audio and DAG to parallelize tasks like thumbnail, watermark etc.
 
 Data security
 * Only authorized users can upload by using pre-signed URLs which gives access permission to the object identified in the URL

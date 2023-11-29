@@ -28,6 +28,7 @@ Main flows
 
 Compute low-latency
 * AJAX requests avoid reloading the entire webpage
+* Cache on the client side
 
 Compute scalability
 * Batching is helpful 1. constantly re-calculating and 2. trie is unlikely to change that much. Could process once a week.

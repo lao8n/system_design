@@ -20,7 +20,7 @@ Sorted sets
 ![image info](./../../../../images/redis_sorted_sets_skip_list.png)
 
 * Redis sorted sets are atomic and have unique values in order
-* Sorted sets = similar to a set but implemented with a hash table and a skip list.are implemented with skip lists which are layered linked lists that allow for fast search and quick removal and deletion with O(logn) rather than O(n). Hash table mapping each element to it score. 
+* Sorted sets = similar to a set but implemented with a hash table and a skip list which which are layered linked lists that allow for fast search and quick removal and deletion with O(logn) rather than O(n). Hash table mapping each element to it score. 
 * Redis operations 
     * `ZADD`: insert user into set O(logn)
     * `ZINCRBY`: increment the score of user by X O(logn)

@@ -3,7 +3,7 @@
 **Definition** 
 
 **Key properties**
-* Each server handle roughly 100k subscriber pushes per second
+* Each server handle roughly 100k subscriber pushes per second, 100gb memory
 * Messages are not persisted in memory or on disk - they are sent to subscribers of the channel and deleted i.e. stateless messages
 * Subscriber list is maintained - therefore need to be careful of scaling.
 
@@ -13,4 +13,4 @@
 * 
 
 **Alternatives**
-* Use Erlang
+* Use Erlang - only 300 bytes per process

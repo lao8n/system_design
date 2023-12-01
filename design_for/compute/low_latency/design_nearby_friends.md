@@ -40,7 +40,6 @@ Overall design
 
 ![image info](./../../../images/nearby_friends.png)
 
-
 Compute
 * Low-latency: use websockets for connections - be careful draining nodes in load balancer
 * Scalability: load-balancer 
@@ -49,4 +48,5 @@ Compute
 
 Data
 * Scalability: shard the user data
-* Low-latency: also shard the redis cache data - 334k/s is too much for one server
+* Low-latency: also shard the redis cache data - 334k/s is too much for one server. TTL expiration so location isn't
+picked up

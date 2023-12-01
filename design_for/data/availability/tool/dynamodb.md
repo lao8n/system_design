@@ -10,4 +10,4 @@
 **Architecture**
 
 **Used by**
-* 
+* 40k writes per second

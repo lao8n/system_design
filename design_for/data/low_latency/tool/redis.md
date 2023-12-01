@@ -34,3 +34,4 @@ Redis Cluster
 * Could use fixed or hash partitions. Latter is useful for clumped data. 
 * Rather than consistent hashing uses different form of sharding with hash slots. 
 * However, it makes getting top 10 scores harder
+* Single server is Read QPS 100k, Write QPS 100k

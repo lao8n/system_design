@@ -45,6 +45,7 @@ Map rendering
 Compute
 * Computation: Machine learning to predict traffic for ETA service. Adaptive ETA and rerouting involves recursively searching from current location to destination to find routing tile.
 * Reliability: Use Kafka for low-latency, high scalability processing of user location data by various services.
+* Low-latency: batch client writes for location rather than web-socket
 
 Data
 * Modelling: graph data as adjacency lists

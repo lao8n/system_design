@@ -29,7 +29,7 @@ Architecture
 
 Compute
 * Scalability: Partition (sharding) where offset is position in partition (maintaining order within partition but not across)
-* Scalability: Brokers allow partitioning where each manages one.
+* Scalability: Brokers are servers that each handle multiple partitions from different topics.
 * Scalability: Consumer group subscribes to a topic, distributing partitions across them. In order to maintain ordering we have one consumer for each partition. To rebalance need broker with leadership elections and heartbeats etc.
 * Reliability: Consumer pull model better than push so consumers aren't overwhelmed and can batch more easily.
 * Throughput: Batch data (trade-off is higher latency) from brokers to network request etc.

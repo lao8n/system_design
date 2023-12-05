@@ -13,7 +13,7 @@ Estimates
 * TPS? 1m
 * Relational database can support 1000 TPS but each transfer has two operations 1. deduct 2. add so need 2m / 1k = 2k nodes
 System Design
-* Transactional guarantees sufficFient? Yes
+* Transactional guarantees sufficient? Yes
 * Availability? 2 9s.
 
 **Step 2: Propose high-level design and get buy-in**

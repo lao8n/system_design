@@ -11,4 +11,4 @@ Properties
 Used in
 * Log-structured Merge Trees (LSM) like Cassandra, RocksDB and LEvel DB involves in-memory memtables and flushing to on-disk tables (SSTables)
 
-Bloom filters = is an array of m bits all set to 0 and uses k different hash functions. To add an element an element is passed through all k hash functions where the bits at these k indices are all set to 1. To check if an elemtn is in the set the element is passed through the same k hash functions. If all the bits at the k indices are 1 the bloom filter reports it is possibly in the set. 
+Bloom filters = is an array of m bits all set to 0 and uses k different hash functions. To add an element an element is passed through all k hash functions where the bits at these k indices are all set to 1. To check if an element is in the set the element is passed through the same k hash functions. If all the bits at the k indices are 1 the bloom filter reports it is possibly in the set. 

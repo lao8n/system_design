@@ -5,7 +5,7 @@
 3 types of storage
 * Block = 1960s like HDD and SDD most flexible doesn't have to be physically attached as could be over a network.
 * File = built on top of block storage providing a higher-level of abstraction with files and directories. File level network protocols like SMB/CIFS and NFS can make this accessible
-* Object = New and sacrifices performance for high durability, vast scala and low cost. Targeting cold data for archival and backup
+* Object = New and sacrifices performance for high durability, vast scale and low cost. Targeting cold data for archival and backup
 
 Concepts
 * Bucket = container for object where bucket is globally unique

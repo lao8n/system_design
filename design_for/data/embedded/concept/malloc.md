@@ -9,3 +9,4 @@
 **Alternatives**
 * Ping-pong buffer
 * Circular buffer
+* RAM overlays two different systems can share the same RAM - although they cannot use it at the same time
